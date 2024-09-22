@@ -2,7 +2,46 @@ body html * {
   box-sizing: border-box;
   direction: rtl;
   text-align: center;
-  list-style-type: persian;
+}
+.calender1 {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  order: 1;
+  align-self: flex-end;
+  justify-content: space-evenly;
+  line-height: 7em;
+  width: 855px;
+  height: 90px;
+  margin: 0;
+  /* padding: 2px 10px; */
+  
+}
+h1 {
+  font: 300;
+  font-size: 290%;
+  color: brown;
+  font-family: IRANYekan, sans-serif;
+}
+h5 {
+  font: 800;
+  color: gray;
+  font-family: IRANYekan, sans-serif;
+}
+.calender2 {
+ border: 0.2px solid brown;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  order: 1;
+  align-self: flex-end;
+  justify-content: space-evenly;
+  line-height: 7em;
+  width: 800px;
+  height: 90px;
+  margin: 0;
+  padding: 10px 37px;
 }
 
 <!--menu-- > .main-menu {
@@ -17,28 +56,28 @@ body html * {
   font-size: 12px;
   margin: 0 0 20px;
 }
-#year {
+/* #year {
   color: brown;
   font-size: 35px;
   font-weight: 750;
   font-family: IRANYekan, sans-serif;
   list-style-type: persian;
-}
-#month{
+} */
+/* #month{
   color: brown;
   font-size: 40px;
   font-weight: 700;
   font-family: IRANYekan, sans-serif;
   list-style-type: persian;
-}
+} */
 
-#years {
+/* #years {
   color: gray;
   font-size: 100%;
   font-family: IRANYekan, sans-serif;
 
   border: 1px solid white;
-}
+} */
 
 #menu-menu1 {
   color: brown;
@@ -47,17 +86,17 @@ body html * {
 .container {
   font-family: yekan;
   display: grid;
-  grid-template-columns: repeat(7, 50px);
-  grid-template-rows: repeat(5, 50px);
-  padding: 20px 340px;
-  gap: 50px;
+  grid-template-columns: repeat(7, 47px);
+  grid-template-rows: repeat(5, 47px);
+  padding: 10px 75px;
+  gap: 69px;
   direction: ltr;
   text-align: center;
   margin: 0 auto;
 }
- .item {
+.item {
   background-color: white;
-  border: 1px solid rebeccapurple;
+  border: 1px solid white;
   padding: 9px;
   display: flex;
   align-items: center;
@@ -65,7 +104,7 @@ body html * {
   font-size: 19px;
   text-align: justify;
   margin: 3px;
-  } 
+}
 /* .item::before {
   content: "*";
 }  */
