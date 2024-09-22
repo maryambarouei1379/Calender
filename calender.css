@@ -150,7 +150,7 @@ h5 {
 }
 
 #div1 {
-  font-family: yekan;
+  font-family: Shabnam;
   direction: rtl;
   height: 100%;
   width: 57%;
@@ -202,11 +202,20 @@ position:absolute;
   position: absolute;
 } */
 
-@font-face {
+/* @font-face {
   font-family: yekan;
   src: url("yekan.eot");
   src: url("yekan.eot?#iefix") format("yekan-opentype"),
     url("yekan.woff") format("woff"), url("yekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+font-face {
+  font-family: yekan;
+  src: url("Shabnam-Light.eot");
+  src: url("Shabnam-Light.eot?#iefix") format("Shabnam-Light-opentype"),
+    url("Shabnam-Light.woff") format("woff"), url("Shabnam-Light.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

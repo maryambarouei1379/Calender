@@ -1,5 +1,5 @@
 .calender2 {
-  border: 0.1px solid brown;
+  border: 1rem solid brown;
   display: flex;
   flex-direction: row;
   align-items: center;
