@@ -1,5 +1,5 @@
 .calender2 {
-  border: 1rem solid brown;
+  border: 1px solid brown;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,8 +9,10 @@
   /* line-height: ; */
   width: 800px;
   height: 90px;
-  margin: 0;
-  /* padding: 2px ; */
+  margin: 0px;
+   padding: 0px;
+   background-color: brown;
+   color: white;
 }
 /* h1 {
   font: 200;

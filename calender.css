@@ -29,22 +29,39 @@ h5 {
   color: gray;
   font-family: IRANYekan, sans-serif;
 }
-.calender2 {
+/* .calender2 {
  /* border: 0.2px solid brown; */
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   align-items: baseline;
   order: 1;
   align-self: flex-end;
   justify-content: space-evenly;
-  line-height: 7em;
-  width: 800px;
+  line-height: 7em; */
+  /* width: 800px;
   height: 90px;
   margin: 0;
   padding: 10px 37px;
-}
+} */ 
+ .calender2{
+   border: 1px solid brown;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* order: 1; */
+  align-self: flex-end;
+  justify-content: space-around;
+  /* line-height: ; */
+  width: 800px;
+  height: 90px;
+  margin: 0px;
+   padding: 0px;
+   background-color: brown;
+   color: white;
+ }
 
-<!--menu-- > .main-menu {
+<!--menu-- > 
+.main-menu {
   display: flex;
   justify-content: center;
   margin: 0;
@@ -79,9 +96,7 @@ h5 {
   border: 1px solid white;
 } */
 
-#menu-menu1 {
-  color: brown;
-}
+
 
 .container {
   font-family: yekan;
@@ -105,9 +120,7 @@ h5 {
   text-align: justify;
   margin: 3px;
 }
-/* .item::before {
-  content: "*";
-}  */
+
 
 /* .item1 {
   grid-column-start: span 7;
