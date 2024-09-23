@@ -61,11 +61,10 @@ h5 {
   display: grid;
   grid-template-columns: repeat(7, 60px);
   grid-template-rows: repeat(5, 47px);
-  padding-top: 0px;  
+  padding: 0px;
   gap: 50px;
   /* direction: ltr; */
   margin: 0px 85px;
-  
 }
 /* .item {
   background-color: white;
@@ -78,9 +77,38 @@ h5 {
 
 } */
 
-.item{font-size: 22px;
+#calendar-row::before {
+  /* ! before به معنای یک استایل برای یک المنت که وجود ندارد میباشد */
+
+  /* ! استایل عادی شبیه زمانی که به دایو استایل میدهیم */
+
+  /* ************** این پراپرتی برای بیفور ضرروی میباشد تا کار کند ****************** */
+  content: "";
+
+  
+
+  /* نگه داشتنش در بالا سمت چپ  */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  
+ width: 0;
+ height: 0;
+ left: 15px;
+ top: -15px;
+ /* bottom: 20px; */
+ border-left:30px solid transparent;
+ border-top:30px solid gray;
+ border-right:0px solid transparent;
+ border-bottom:30px solid transparent;
+ rotate: -90deg;
+}
+
+.item {border: 1px solid red;
+  font-size: 22px;
   position: relative;
-   top:auto; 
+  top: auto;
   bottom: 20px;
   left: 25px;
 }
@@ -101,7 +129,7 @@ h5 {
   text-align: center;
   font-display: bold;
   font-family: yekan;
-  }
+}
 
 #div1 {
   font-family: Shabnam;
@@ -109,11 +137,10 @@ h5 {
   height: 100;
   width: 760px;
   padding: 1px 58px;
-   text-align: justify;
-   position: relative;
-   top:auto; 
+  text-align: justify;
+  position: relative;
+  top: auto;
   bottom: 40px;
-   
 }
 
 span {
