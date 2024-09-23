@@ -4,7 +4,7 @@ body html * {
   text-align: center;
 }
 .calender1 {
-  /* border: 1px solid green; */
+   border: 1px solid white; 
   display: flex;
   flex-direction: row;
   align-items: baseline;
@@ -12,20 +12,20 @@ body html * {
   align-self: flex-end;
   justify-content: space-evenly;
   line-height: 7em;
-  width: 855px;
-  height: 90px;
+  width: 800px;
+  /* height: ; */
   margin: 0;
   /* padding: 2px 10px; */
   
 }
 h1 {
-  font: 300;
-  font-size: 290%;
+  
+  font-size: 30px;
   color: brown;
   font-family: IRANYekan, sans-serif;
 }
 h5 {
-  font: 800;
+  
   color: gray;
   font-family: IRANYekan, sans-serif;
 }
@@ -53,7 +53,7 @@ h5 {
   justify-content: space-around;
   /* line-height: ; */
   width: 800px;
-  height: 90px;
+  height: 25px;
   margin: 0px;
    padding: 0px;
    background-color: brown;
