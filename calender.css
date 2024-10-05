@@ -44,35 +44,39 @@ h5 {
 
 .Days-Of-The-Week {
   border: 1px solid brown;
-  display: flex;
+   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+ 
   width: 780px;
-  height: 5vh;
+
+  height: 50px;
   margin: 56px;
-  
+
   background-color: brown;
   color: white;
 }
 
 .Friday {
   color: yellow;
-  display: inline-block;
-  font-size: 25px;
-  margin: 17px auto;
-  text-align: center;
-  font-display: bold;
-  font-family: yekan;
-}
-
-.Week {
-  display: inline-block;
+  display: inline-block; 
   font-size: 20px;
   margin: 17px auto;
   text-align: center;
   font-display: bold;
   font-family: yekan;
+  list-style-type: none;
+}
+
+.Week {
+  display: inline-block;  
+  font-size: 20px;
+  margin: 17px auto;
+  text-align: center;
+  font-display: bold;
+  font-family: yekan;
+ list-style-type: none;
 }
 
 .Container {
@@ -206,41 +210,126 @@ span {
   color: tomato;
 }
 
- @media (max-width: 992px) {
+@media (max-width: 992px) {
   .Year-Month {
-  
-  width: 640px;
-  transition: 0.5s all ease-in-out;
-}
-  Days-Of-The-Week{
-  
-  width: 600px;
-    
-  }
-  .text{
     width: 640px;
     transition: 0.5s all ease-in-out;
   }
-  .Container{
+  Days-Of-The-Week {
+    width: 64%;
+ 
+  /* height: 50px;
+  margin: 56px; */
+  }
+  /* .Week{
+
+   
+  } */
+  .text {
+    width: 640px;
+    transition: 0.5s all ease-in-out;
+    
+  }
+  .Container {
     width: 70vw;
     font-family: Shabnam;
-  display: grid;
-  grid-template-columns: repeat(7, 63px);
-  grid-template-rows: repeat(5, 47px);
-  padding: 0px;
-  gap: 35px;
-  margin: 0px 85px;
-  transition: 0.5s all ease-in-out;
+    display: grid;
+    grid-template-columns: repeat(7, 63px);
+    grid-template-rows: repeat(5, 47px);
+    padding: 0px;
+    gap: 35px;
+    margin: 0px 85px;
+    
+    transition: 0.5s all ease-in-out;
   }
-  .Week{
-    display: flex;
+  .Week {
+    font-size: 15px;
+    width: 800px;
   }
-  .Friday{display: flex;}
-} 
+  .Friday {
+    font-size: 15px;
+  }
+}
 
 /* @media (min-width: 1025px) {
    .Year-Month .Days-Of-The-Week .Container .text{
     flex-direction: row;
     justify-content: space-between;
   } */
-} 
+
+@media (max-width: 768px) {
+  .Year-Month {
+    width: 550px;
+    transition: 0.8s all ease-in-out;
+  }
+  Days-Of-The-Week {
+    width: 210px;
+  }
+  .text {
+    width: 550px;
+    transition: 0.8s all ease-in-out;
+  }
+  .Container {
+    width: 70vw;
+    font-family: Shabnam;
+    display: grid;
+    grid-template-columns: repeat(7, 63px);
+    grid-template-rows: repeat(5, 47px);
+    padding: 0px;
+    gap: 20px;
+    margin: 0px 85px;
+    transition: 0.8s all ease-in-out;
+  }
+  .Week {
+    font-size: 15px;
+    width: 710px;
+  }
+  .Friday {
+    font-size: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .Year-Month {
+    width: 460px;
+    transition: 0.8s all ease-in-out;
+  }
+  Days-Of-The-Week {
+    width: 210px;
+  }
+
+  .text {
+    width: 460px;
+    transition: 0.8s all ease-in-out;
+    text-align: justify;
+    position: relative;
+    top: auto;
+    bottom: 150px;
+  }
+
+  .Container {
+    width: 70vw;
+    font-family: Shabnam;
+    display: grid;
+    grid-template-columns: repeat(7, 63px);
+    grid-template-rows: repeat(5, 47px);
+    padding: 0px;
+    gap: 5px;
+    margin: 85px;
+    transition: 0.8s all ease-in-out;
+  }
+  .Week {
+    font-size: 15px;
+    width: 710px;
+  }
+  .Friday {
+    font-size: 15px;
+  }
+  .item {
+  border: 1px solid white;
+  font-size: 22px;
+  position: relative;
+  top: auto;
+  bottom: 12vh;
+  right: 30px;
+}
+}
