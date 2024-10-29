@@ -44,14 +44,12 @@ h5 {
 
 .Days-Of-The-Week {
   border: 1px solid brown;
-   display: flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
- 
   width: 780px;
-
-  height: 50px;
+  height: 30px;
   margin: 56px;
 
   background-color: brown;
@@ -69,7 +67,7 @@ h5 {
   list-style-type: none;
 }
 
-.Week {
+.Week {width: 500px;
   display: inline-block;  
   font-size: 20px;
   margin: 17px auto;
