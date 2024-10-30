@@ -51,14 +51,13 @@ h5 {
   width: 780px;
   height: 30px;
   margin: 56px;
-
   background-color: brown;
   color: white;
 }
 
 .Friday {
   color: yellow;
-  display: inline-block; 
+  display: inline-block;
   font-size: 20px;
   margin: 17px auto;
   text-align: center;
@@ -67,14 +66,15 @@ h5 {
   list-style-type: none;
 }
 
-.Week {width: 500px;
-  display: inline-block;  
+.Week {
+  width: 500px;
+  display: inline-block;
   font-size: 20px;
   margin: 17px auto;
   text-align: center;
   font-display: bold;
   font-family: yekan;
- list-style-type: none;
+  list-style-type: none;
 }
 
 .Container {
@@ -215,18 +215,11 @@ span {
   }
   Days-Of-The-Week {
     width: 64%;
- 
-  /* height: 50px;
-  margin: 56px; */
   }
-  /* .Week{
 
-   
-  } */
   .text {
     width: 640px;
     transition: 0.5s all ease-in-out;
-    
   }
   .Container {
     width: 70vw;
@@ -237,7 +230,6 @@ span {
     padding: 0px;
     gap: 35px;
     margin: 0px 85px;
-    
     transition: 0.5s all ease-in-out;
   }
   .Week {
@@ -248,12 +240,6 @@ span {
     font-size: 15px;
   }
 }
-
-/* @media (min-width: 1025px) {
-   .Year-Month .Days-Of-The-Week .Container .text{
-    flex-direction: row;
-    justify-content: space-between;
-  } */
 
 @media (max-width: 768px) {
   .Year-Month {
@@ -323,11 +309,11 @@ span {
     font-size: 15px;
   }
   .item {
-  border: 1px solid white;
-  font-size: 22px;
-  position: relative;
-  top: auto;
-  bottom: 12vh;
-  right: 30px;
-}
+    border: 1px solid white;
+    font-size: 22px;
+    position: relative;
+    top: auto;
+    bottom: 12vh;
+    right: 30px;
+  }
 }
